@@ -2,7 +2,7 @@
 
 This project tracks, ranks, and evaluates DevOps AI Assistants across a number of knowledge domains.
 
-__[🏆 View the current leaderboard](https://docs.google.com/spreadsheets/d/1zR5X5-ad-B2KPqnu5h1Ejh4FCGBb1av2VIN_enYQDl8/edit?usp=sharing).
+__[🏆 View the current leaderboard](https://docs.google.com/spreadsheets/d/1zR5X5-ad-B2KPqnu5h1Ejh4FCGBb1av2VIN_enYQDl8/edit?usp=sharing).__
 
 ## What is a DevOps AI Assistant?
 
