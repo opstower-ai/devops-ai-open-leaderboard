@@ -4,7 +4,7 @@ This project tracks, ranks, and evaluates DevOps AI Assistants across knowledge 
 
 ## 🏆 Current Leaderboard
 
-| Name      | Dataset File               | Percent Accuracy | Median Duration (s) | Created At |
+| Name      | Dataset File               | Accuracy         | Median Duration (s) | Created At |
 |-----------|----------------------------|------------------|---------------------|------------|
 | OpsTower  | aws_cloudwatch_metrics.csv | 89% 🏆           | 42                  | 2023-09-17 |
 | ReleaseAi | aws_cloudwatch_metrics.csv | 56%              | 20                  | 2023-09-18 |
@@ -15,19 +15,31 @@ This project tracks, ranks, and evaluates DevOps AI Assistants across knowledge 
 
 Metrics:
 
-* Percent Accuracy: The percent of questions that the DevOps AI Assistant answered correctly.
-* Median Duration: The median duration in seconds that it took the DevOps AI Assistant to answer a question.
-
-## Evaluated DevOps AI Assistants
-
-* [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)
-* [ReleaseAi](https://release.ai)
+* `Accuracy`: The percent of questions that the DevOps AI Assistant answered correctly.
+* `Median Duration`: The median duration in seconds that it took the DevOps AI Assistant to answer a question.
 
 ## What is a DevOps AI Assistant?
 
 A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engineers perform their daily tasks. They connect to external systems like AWS and Kubernetes to perform actions on behalf of the user.
 
-## Submit a DevOps AI Assistant for evaluation
+## List of DevOps AI Assistants
+
+| Name | Focus | Evaluated? |
+| -------- | -------- | -------- |
+| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower) | AWS CLI | Yes |
+| [ReleaseAI](https://release.ai/) | AWS CLI, Kubectl | Yes |
+| [aiac](https://github.com/gofireflyio/aiac) | Infastructure as code | No |
+| [KubeCtl-ai](https://github.com/sozercan/kubectl-ai) | Kubernetes manifests | No |
+| [aiws](https://github.com/huseyinbabal/aiws) | AI Driven AWS CLI | No |
+| [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform assistant for OpenAI GPT  | No |
+| [tfgpt](https://github.com/flavius-dinu/tfgpt) | Provides explanations for Terraform commands and concepts | No |
+| [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure CLI | No |
+| [kubiya](https://www.kubiya.ai/) | AWS, Kubernetes, GitHub, etc | No |
+| [micro](https://github.com/tahtaciburak/mico) | kubectl | No |
+| [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | kubectl | No |
+| [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | kubectl | No |
+
+### Submit a DevOps AI Assistant for evaluation
 
 Open a PR and submit a DevOps AI Assistant for automated evaluation. To be evaluated, I need to be able to interact with it on the command line or via a REST API.
 
@@ -38,6 +50,14 @@ See the [datasets/](datasets/) directory for the question datasets. There are 3 
 1. `question`: The question to ask the DevOps AI Assistant
 2. `answer_format`: The expected answer in natural language.
 3. `reference_functions`: The reference functions that the DevOps AI Assistant should call to answer the question.
+
+List of datasets:
+
+| Name | Example Question |
+| -------- | -------- |
+| [aws_cloudwatch_metrics.csv](datasets/aws_cloudwatch_metrics.csv) | Were there any Lambda invocations that lasted over 30 seconds in the last day? |
+| [aws_services.csv](datasets/aws_services.csv) | Do our ec2 instances have are any unexpected reboots or terminations over the past 7 days? |
+| [aws_billing.csv](datasets/aws_billing.csv) | Which region has the highest AWS expenses for me over the past 3 months? |
 
 ## Evaluation Process
 
@@ -57,6 +77,6 @@ Please submit a PR if you believe a reference function is incorrect.
 
 ## Contact Info
 
-Reach out to me at derek@dlite.cc if you have general questions about this leaderboard.
+Reach out derek@opstower.ai if you have general questions about this leaderboard.
 
 
