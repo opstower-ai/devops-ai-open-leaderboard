@@ -10,6 +10,8 @@ This project tracks, ranks, and evaluates DevOps AI Assistants across knowledge 
 | ReleaseAi | aws_cloudwatch_metrics.csv | 56%              | 20                  | 2023-09-18 |
 | OpsTower  | aws_services.csv           | 92% 🏆           | 29                  | 2023-09-17 |
 | ReleaseAi | aws_services.csv           | 72%              | 11                  | 2023-09-17 |
+| OpsTower  | aws_billing.csv            | 91% 🏆           | 53                  | 2023-09-18 |
+| ReleaseAi | aws_billing.csv            | 73%              | 23                  | 2023-09-18 |
 
 Metrics:
 
@@ -47,7 +49,7 @@ See the [datasets/](datasets/) directory for the question datasets. There are 3 
 
 ## A note on dynamic evaluation
 
-A critical component of the evaluation process is the dynamic evaluation. It's not feasible to provide a static answer for most questions as the correct answer is environment-specific. For example, the answer to "What is the average CPU utilization across my EC2 instances?" is not a static answer. It depends on the current state of the EC2 instances. 
+A critical component of the evaluation process is the dynamic evaluation. It's not feasible to provide a static answer for most questions as the correct answer is environment-specific. For example, the answer to "What is the average CPU utilization across my EC2 instances?" is not a static answer. It depends on the current state of the EC2 instances.
 
 To solve this, I've stored a set of human-evaluated functions to generate the data that provide correct answers. Then, I use an LLM prompt to generate a natural language answer from the data. This would be a poor evaluation process if the LLM provided an incorrect answer based on the returned data, but I have yet to observe significant errors in the LLM's reasoning of the function output.
 

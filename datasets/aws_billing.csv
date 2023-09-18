@@ -1,0 +1,12 @@
+question,answer_format,reference_functions
+What was my AWS bill yesterday?,,e599a37b-6dbd-4f88-85c5-f94e66570f7d
+How much have I spent on AWS this month so far?,,189731e5-8cbc-4d4b-931e-3f1e7157a3d1
+Which service is costing me the most this month?,,5df05702-f804-40c0-9bdf-0d895873a03b
+What was my total AWS bill for last month?,,5bfe97dc-01d4-4125-ab90-de44fed1115a
+How much did I spend on EC2 instances last month?,,4ddf1f5d-6278-4380-a8ed-d7cf79dd4655
+Can you show me a breakdown of my AWS costs by service for this year?,,09dd398b-fbe5-4a8d-939e-2d9cf8bd241d
+How does my current month's spending compare to the previous month?,,8ff35691-25e6-4158-bcf0-585e4940b0f5
+"How many reserved instances do I have, and how much am I being charged for each reserved instance?",,ad8084a7-085e-47a7-8d9a-1d6e48838bf3
+What are my forecasted costs for the next month?,,32160904-21ec-4a93-b6fa-cb38892b685a
+Which region has the highest AWS expenses for me over the past 3 months?,,b4085aa8-d8a5-4252-b694-af3bd53feefe
+Are there any billing alerts or notifications set up for my account?,,87e7460d-761e-4819-947d-2c0306d0daca

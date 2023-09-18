@@ -1,0 +1,69 @@
+question,answer,dataset_answer,confidence,why,correct,duration_seconds
+What was my AWS bill yesterday?,"I'm sorry, but I was unable to retrieve the cost data for yesterday due to an issue with the date parameters. I will investigate this issue and try to resolve it as soon as possible.",Your AWS bill for yesterday was $9.0514364111.,0.0,The responses are not functionally equivalent because one provides the cost data while the other does not.,false,180.269541
+Which service is costing me the most this month?,"The service that is costing the most this month is the Amazon Relational Database Service (RDS), with a cost of approximately $77.56.","The service costing you the most this month is the Amazon Relational Database Service, with an unblended cost of $77.5551249643 USD.",1.0,"Both responses indicate that the Amazon Relational Database Service is the most costly service this month, and provide the same cost, despite slight differences in wording and precision.",true,34.745218
+How much have I spent on AWS this month so far?,The total cost for AWS services for the current month so far is approximately $145.47.,You have spent $145.47 on AWS this month so far.,1.0,Both responses provide the same information about the amount spent on AWS for the current month.,true,44.75221
+What was my total AWS bill for last month?,Your total AWS bill for last month was approximately $204.69.,Your total AWS bill for last month was $204.69.,1.0,"Both responses provide the same information about the total AWS bill for last month, which is $204.69.",true,43.327967
+How much did I spend on EC2 instances last month?,The total cost for your EC2 instances last month was approximately $80.23.,You spent $80.23 on EC2 instances last month.,1.0,Both responses provide the same information about the cost of EC2 instances last month.,true,46.636331
+How does my current month's spending compare to the previous month?,"The spending for the current month so far is $145.47, while the total spending for the previous month was $204.69. This means that the current month's spending is lower compared to the previous month.","Your spending for the current month is lower than the previous month. Specifically, you spent $147.26 this month, compared to $213.60 last month.",0.9,"Both responses indicate that the current month's spending is lower than the previous month, although the specific amounts differ slightly.",true,58.666976
+"How many reserved instances do I have, and how much am I being charged for each reserved instance?","You currently have no active reserved instances in your AWS account. Therefore, you are not being charged for any reserved instances.","You do not have any reserved instances, therefore you are not being charged for any.",1.0,Both responses indicate that the user does not have any reserved instances and therefore is not being charged for any.,true,231.475788
+Which region has the highest AWS expenses for me over the past 3 months?,The region with the highest AWS expenses for you over the past 3 months is 'us-east-1'.,The region with the highest AWS expenses for you over the past 3 months is us-east-1.,1.0,"Both responses provide the same information, indicating that 'us-east-1' is the region with the highest AWS expenses for the user over the past 3 months.",true,63.388887
+Can you show me a breakdown of my AWS costs by service for this year?,"The breakdown of your AWS costs by service for this year is as follows:
+
+- Amazon Relational Database Service: $893.72
+- Amazon Elastic Compute Cloud - Compute: $259.30
+- AmazonCloudWatch: $142.73
+- EC2 - Other: $54.72
+- AWS Secrets Manager: $0.85
+- AWS Lambda: $0.002
+- Amazon Simple Storage Service: $0.01
+- Amazon Elastic Load Balancing: $0.0003
+- AWS Cost Explorer: $0.04
+- Amazon ElastiCache: $0.34
+- AWS App Runner: $0.06
+
+Please note that these costs are approximations and the actual costs may vary slightly.","Here is the breakdown of your AWS costs by service for this year:
+
+- From January to May, there were no costs incurred.
+- In June, the costs were as follows:
+  - AWS App Runner: $0.06
+  - AWS Lambda: $0.0000396586
+  - Amazon ElastiCache: $0.336
+  - EC2 - Other: $7.1111973965
+  - Amazon Elastic Compute Cloud - Compute: $43.6061965784
+  - Amazon Kinesis Firehose: $0.0000212956
+  - Amazon Relational Database Service: $300.1437040339
+  - AmazonCloudWatch: $17.150590174
+- In July, the costs were as follows:
+  - AWS Lambda: $0.0000705082
+  - AWS Secrets Manager: $0.2301075232
+  - EC2 - Other: $20.2852419768
+  - Amazon Elastic Compute Cloud - Compute: $95.3752
+  - Amazon Relational Database Service: $449.1184844546
+  - Amazon Simple Storage Service: $0.005565
+  - AmazonCloudWatch: $59.292394904
+- In August, the costs were as follows:
+  - AWS Cost Explorer: $0.02
+  - AWS Lambda: $0.0012046763
+  - AWS Secrets Manager: $0.397849456
+  - EC2 - Other: $19.0924058396
+  - Amazon Elastic Compute Cloud - Compute: $82.4559609884
+  - Amazon Elastic Load Balancing: $0.000104731
+  - Amazon Relational Database Service: $66.9078930637
+  - Amazon Simple Storage Service: $0.0063850195
+  - AmazonCloudWatch: $44.72224967
+  - CloudWatch Events: $0.0000002
+- From September 1st to September 18th, the costs were as follows:
+  - AWS Cost Explorer: $0.02
+  - AWS Lambda: $0.0009430283
+  - AWS Secrets Manager: $0.2244444624
+  - EC2 - Other: $8.237406588
+  - Amazon Elastic Compute Cloud - Compute: $37.8624
+  - Amazon Elastic Load Balancing: $0.0001961064
+  - Amazon Relational Database Service: $77.5551249643
+  - Amazon Simple Storage Service: $0.0000004012
+  - AmazonCloudWatch: $21.5691054949
+  - CloudWatch Events: $0.0000002
+
+Please note that these costs are unblended and some of them are estimated.",1.0,"Both responses provide a detailed breakdown of AWS costs by service for the year, although the reference response provides a more detailed month-by-month breakdown.",true,97.086959
+What are my forecasted costs for the next month?,"Based on your current AWS usage, the forecasted cost for the next month is approximately $545.69. This estimate is divided into $263.73 for the remaining days of the current month and $281.96 for the next month.",Your forecasted costs for the next month are approximately $281.96.,1.0,"Both responses provide the same forecasted cost for the next month, even though the first response also includes additional information about the remaining days of the current month.",true,53.336188
+Are there any billing alerts or notifications set up for my account?,"No, there are no billing alerts or notifications currently set up for your AWS account.","No, there are no billing alerts or notifications set up for your account. The function output shows an empty list, indicating that no billing alarms were found.",0.9,"Both responses indicate that there are no billing alerts or notifications set up for the account, but the reference response provides additional detail about the function output.",true,41.188162
