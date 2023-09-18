@@ -1,0 +1,5 @@
+name,dataset_file,average_confidence,percent_accuracy,median_duration_seconds,created_at,dataset_size
+OpsTower,aws_cloudwatch_metrics.csv,0.8772222222222222,0.8888888888888888,42.2146325,2023-09-17,18
+ReleaseAi,aws_cloudwatch_metrics.csv,0.6105555555555555,0.5555555555555556,20.484807,2023-09-18,18
+ReleaseAi,aws_services.csv,0.746,0.72,11.386332,2023-09-17,25
+OpsTower,aws_services.csv,0.9279999999999999,0.92,28.853238,2023-09-17,25

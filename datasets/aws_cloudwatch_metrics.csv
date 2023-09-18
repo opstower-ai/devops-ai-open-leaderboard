@@ -1,0 +1,19 @@
+question,answer_format,reference_functions
+What's the minimum Burst Balance across ebs volumes?,,209d694c-eb90-4486-8b9a-c5076a362476
+What is the average cpu utilization of our ec2 instances over the past 24 hours?,,cf3f9e52-9a81-4eb7-bb99-d389adef1c47
+how much storage remains (In GB) on the ebs volumes used on our rds instances?,,"4d54e6e0-6117-4cdb-b1dd-2de5af35bd9e"
+Were there any Lambda invocations that lasted over 30 seconds in the last day?,,"313c51f1-1162-4236-b9ce-4e2253aa3d99"
+Which instances have status check failures over the past 7 days?,,571c8592-be3e-4ecf-9ba1-54b3bef7cbba
+Are there any unused Lambdas?,,346a2e9e-e48b-4633-97f5-961f40a243ad
+what is the percent Database capacity usage for each elasticcache instance?,,2871ed75-33a9-435a-add3-0991cab4b92a
+Do we have an ec2 instance doing a significantly larger workload than the others?,,"4b2b18c0-afc8-480d-8292-93d885e6fbad,4b2b18c0-afc8-480d-8292-93d885e6fbad"
+what is the peak swap memory usage (IN MB) and cpu usage of each rds instance over the past 7 days?,,0f660521-c2b5-4892-a2cd-e442f73a5dc0
+how many total calls for each lambda function over the past 24 hours?,,0b9a6eb5-5eb9-4329-a5fd-8c9117873e35
+Which ec2 instances have an average cpu utilization greater than 70% over the past day?,,4c39d960-10b3-4bec-918c-916d29c4b881
+How many invocations per minute are being handled by Lambda over the past 7 days?,,8a953928-767a-4fea-9ce8-b7b09f69a503
+What are the latency (ms) and error rates (errors/min) for each Lambda function over the past 7 days,,e911d24d-309a-4cae-8c58-5a6fb3054746
+Which ec2 instance has the highest total disk read and writes (in MB/sec) over the past hour?,,2af9e6b6-f621-40ad-b6e9-a8eaa0903657
+how much traffic and errors to each alb over the past 3 hours in requests and errors per-hour,,549a90b5-54ab-44a3-ae1f-cc4a2b1e1999
+what is the write latency on rds instances over the past hour,,fad61aea-beb6-467c-b2f8-95e3a6609185
+are there any lambdas that have not been called over the past 5 days?,,84a93249-066c-4245-b5e2-c0de2a6f036c
+what is the name of our most active sns topic over the past 24 hours?,,112b927d-01fa-4625-acca-083eb256c97d

@@ -1,0 +1,26 @@
+question,answer_format,reference_functions
+Do each of our RDS instances have backups enabled?,,"406f2622-1e34-45fc-83ef-dcb7ff25fd71"
+How long are rds backups retained?,,"05a02d4e-9339-477b-9aab-7167ad929302"
+Are all of our ec2 instances running?,,"53de7900-9adb-4907-b521-3dab2a1f926a"
+Are any ec2 instances offline?,,4d0833a9-220c-4c22-a927-70968da3cd40
+How many cloudwatch alarms are configured,,1b594817-6b8d-40b2-85a4-1b28ac80c4e4
+Are provisoned iops set for any of our rds instances?,,86c49317-d666-4768-8a38-bcfe4c9c0fa8
+What are the our ec2 instance names?,,f4667a87-d0f7-4d92-a48d-3019826370cb
+What are the names of our rds instances?,,db02cd82-02f8-40e7-8864-2cf1d95f3d1e
+Do our ec2 instances have are any unexpected reboots or terminations over the past 7 days?,,"6629bf9f-1071-4042-9cc7-c1c37fdaf5b9,6629bf9f-1071-4042-9cc7-c1c37fdaf5b9"
+Are there any elasticcache instances?,,43aed3b6-af3d-4581-9ba3-b58bb2f95a2a
+how many cloudwatch alarms are in the alarm state?,,"f563d1ed-e489-44c6-b45b-97a268341331,f563d1ed-e489-44c6-b45b-97a268341331"
+Do we have RDS read replicas?,,"3c7d1a0e-7a69-4af7-bbb2-bd94f7473fee,3c7d1a0e-7a69-4af7-bbb2-bd94f7473fee"
+Have each of our rds instances had a successful backup in the past 48 hours?,,4ffd3f3f-b8c0-4f4d-8053-caf191a287c2
+how many ec2 instances have detailed monitoring and how many do not?,,bf0cfa3f-20dc-4d39-86ac-08debc19efde
+Is cloudtrail logging configured for each of our s3 buckets?,,0a9b4f3f-62b1-4692-b4de-75d218972140
+Do we have the correct amount of RIs active to cover our RDS and EC2 instances?,,"09619f8e-1f3d-45f9-baf1-76c5a1bdb5d9"
+Are there any publicly accessible S3 buckets?,,96fd438d-2483-461e-bfe5-235903a85108
+How many replicas are configured for Elasticache?,,76789f50-16da-446b-85bb-6916448e9e82
+Are there any security groups with unrestricted access lists?,,8bc7c727-689d-4e5f-90eb-80e1ac6126d9
+"Are there any unencrypted storage/EBS volumes, or RDS backups?",,"61bcf616-a5ec-4e6f-a9cb-b45affa5c3f2"
+how many EC2 instances have public IPs? ,,5ee2b781-5b50-459f-a6ca-1533c6314ffb
+How often have our ec2 instances been restarted over the past 3 days according to cloudtrail?,,c856dd9e-ee1d-465a-913e-34b7c86beb41
+which s3 buckets do not have server access logging enabled?,,2035470d-97ad-4a74-b78c-b826bb9af43e
+what is our largest s3 object in MB?,,658ac5e1-d382-4e3d-b4c0-55699b373cb8
+"are our rds db instances running the most current versions? if not, what versions are they running and what version is available?",,51c51fc5-266d-46b6-9ba8-bee6bf0c67c4
