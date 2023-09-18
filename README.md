@@ -2,6 +2,8 @@
 
 This project tracks, ranks, and evaluates DevOps AI Assistants across knowledge domains.
 
+_📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email derek@opstower.ai to chat about these benchmarks._
+
 ## 🏆 Current Leaderboard
 
 | Name      | Dataset File               | Accuracy         | Median Duration (s) | Created At |
