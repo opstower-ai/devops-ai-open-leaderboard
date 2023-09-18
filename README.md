@@ -6,9 +6,9 @@ This project tracks, ranks, and evaluates DevOps AI Assistants across knowledge 
 
 | Name      | Dataset File               | Percent Accuracy | Median Duration (s) | Created At |
 |-----------|----------------------------|------------------|---------------------|------------|
-| OpsTower  | aws_cloudwatch_metrics.csv | 89%              | 42                  | 2023-09-17 |
+| OpsTower  | aws_cloudwatch_metrics.csv | 89% 🏆           | 42                  | 2023-09-17 |
 | ReleaseAi | aws_cloudwatch_metrics.csv | 56%              | 20                  | 2023-09-18 |
-| OpsTower  | aws_services.csv           | 92%              | 29                  | 2023-09-17 |
+| OpsTower  | aws_services.csv           | 92% 🏆           | 29                  | 2023-09-17 |
 | ReleaseAi | aws_services.csv           | 72%              | 11                  | 2023-09-17 |
 
 Metrics:
@@ -27,7 +27,7 @@ A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engine
 
 ## Submit a DevOps AI Assistant for evaluation
 
-Open a PR and submit a DevOps AI Assistant for automated evaluation. Automated evaluations that your assistant can be interacted with on the command line or via a REST API.
+Open a PR and submit a DevOps AI Assistant for automated evaluation. To be evaluated, I need to be able to interact with it on the command line or via a REST API.
 
 ## Question Datasets
 
@@ -45,10 +45,16 @@ See the [datasets/](datasets/) directory for the question datasets. There are 3 
 2. Iterate over the answer results, using the [dynamic eval prompt](prompts/dynamic_eval.rb) to compare the results of the DevOps AI Assistant to the truth answer. This generates a confidence score and a short explanation for background on the score.
 3. Store the results in the [results/](results/) directory.
 
-A critical component of the evaluation process is the dynamic evaluation. It's not feasible to provide a static answer for most questions as the correct answer is environment-specific. For example, the answer to "What is the average CPU utilization across my EC2 instances?" is not a static answer. It depends on the current state of the EC2 instances. To solve this, I've stored a set of human-evaluated functions to generate the data that provide correct answers. Then, I use an LLM prompt to generate a natural language answer from the data. This would be a poor evaluation process if the LLM provided an incorrect answer based on the returned data, but I have yet to observe significant errors in the LLM's reasoning of the function output.
+## A note on dynamic evaluation
+
+A critical component of the evaluation process is the dynamic evaluation. It's not feasible to provide a static answer for most questions as the correct answer is environment-specific. For example, the answer to "What is the average CPU utilization across my EC2 instances?" is not a static answer. It depends on the current state of the EC2 instances. 
+
+To solve this, I've stored a set of human-evaluated functions to generate the data that provide correct answers. Then, I use an LLM prompt to generate a natural language answer from the data. This would be a poor evaluation process if the LLM provided an incorrect answer based on the returned data, but I have yet to observe significant errors in the LLM's reasoning of the function output.
 
 Please submit a PR if you believe a reference function is incorrect.
 
+## Contact Info
 
+Reach out to me at derek@dlite.cc if you have general questions about this leaderboard.
 
 
