@@ -28,15 +28,15 @@ A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engine
 
 | Name | Focus | Evaluated? |
 | -------- | -------- | -------- |
-| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower) | AWS CLI | Yes |
-| [ReleaseAI](https://release.ai/) | AWS CLI, Kubectl | Yes |
-| [aiac](https://github.com/gofireflyio/aiac) | Infastructure as code | No |
+| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower) | AWS | Yes |
+| [ReleaseAI](https://release.ai/) | AWS, Kubectl | Yes |
+| [aiac](https://github.com/gofireflyio/aiac) | Terraform, kubectl, AWS | No |
 | [KubeCtl-ai](https://github.com/sozercan/kubectl-ai) | Kubernetes manifests | No |
-| [aiws](https://github.com/huseyinbabal/aiws) | AI Driven AWS CLI | No |
-| [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform assistant for OpenAI GPT  | No |
-| [tfgpt](https://github.com/flavius-dinu/tfgpt) | Provides explanations for Terraform commands and concepts | No |
-| [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure CLI | No |
-| [kubiya](https://www.kubiya.ai/) | AWS, Kubernetes, GitHub, etc | No |
+| [aiws](https://github.com/huseyinbabal/aiws) | AWS | No |
+| [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform  | No |
+| [tfgpt](https://github.com/flavius-dinu/tfgpt) | Terraform | No |
+| [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure | No |
+| [kubiya](https://www.kubiya.ai/) | AWS, Kubernetes | No |
 | [micro](https://github.com/tahtaciburak/mico) | kubectl | No |
 | [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | kubectl | No |
 | [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | kubectl | No |
