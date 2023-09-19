@@ -1,0 +1,13 @@
+question,answer_format,reference_functions
+"list all pods",,"75032116-d16f-4b44-a39b-1c8a455892db"
+"How many pods are currently running in the default namespace?",,"fccc926e-5a41-453e-88cc-6991e386a70d"
+"Show me the resource limits for all deployments.",,"44d75cc9-266a-45cb-a0a8-8e7ec1cbae79"
+"Which nodes are currently unschedulable?",,"8c16aa1e-4d69-4715-b42d-3c338f2b6adf"
+"List all services exposing port 80",,"2e23704d-d246-4774-af35-717584382d3d"
+"retrieve all logs over the past 24 hours from the first pod",,"d7be7d7d-936e-45e2-8f2b-79dd92b068c4"
+"How many nodes are currently part of the cluster?",,"2747fe57-10a7-4e36-893f-73dbc9afbbd3"
+"List all jobs that have completed successfully in the last 24 hours.",,"ca5cae40-9331-4bc9-87b2-e648e5afc5fe"
+"Which deployments have been updated in the past week?",,"9e8a93eb-42e9-4fe9-8cd9-867cab57ae26"
+"Are there any pods that are in a 'Pending' state for more than 10 minutes?",,"88ce13b0-d123-4ee0-bdd7-0248cc0bec53"
+"Display the events related to the hello-world service.",,"f657a997-d464-4c3c-975f-bc24588f4c7a"
+"Are there any services without any endpoints in the hello-world namespace?",,"4caa7a52-dc02-45d1-8d9e-6952b73e9c3c"
