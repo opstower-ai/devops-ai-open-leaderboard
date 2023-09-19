@@ -6,14 +6,19 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 
 ## 🏆 Current Leaderboard
 
-| Name      | Dataset File               | Accuracy         | Median Duration (s) | Created At |
-|-----------|----------------------------|------------------|---------------------|------------|
-| OpsTower  | aws_cloudwatch_metrics.csv | 89% 🏆           | 42                  | 2023-09-17 |
-| ReleaseAi | aws_cloudwatch_metrics.csv | 56%              | 20                  | 2023-09-18 |
-| OpsTower  | aws_services.csv           | 92% 🏆           | 29                  | 2023-09-17 |
-| ReleaseAi | aws_services.csv           | 72%              | 11                  | 2023-09-17 |
-| OpsTower  | aws_billing.csv            | 91% 🏆           | 53                  | 2023-09-18 |
-| ReleaseAi | aws_billing.csv            | 73%              | 23                  | 2023-09-18 |
+| Name      | Dataset File               | Accuracy        | Median Duration (s) | Created At |
+|-----------|----------------------------|-----------------|---------------------|------------|
+| OpsTower  | aws_cloudwatch_metrics.csv | 89% 🏆          | 42                  | 2023-09-17 |
+| ReleaseAi | aws_cloudwatch_metrics.csv | 56%             | 20                  | 2023-09-18 |
+| OpsTower  | aws_services.csv           | 92% 🏆          | 29                  | 2023-09-17 |
+| ReleaseAi | aws_services.csv           | 72%             | 11                  | 2023-09-17 |
+| OpsTower  | aws_billing.csv            | 91% 🏆          | 53                  | 2023-09-18 |
+| ReleaseAi | aws_billing.csv            | 73%             | 23                  | 2023-09-18 |
+| Kubectl-GPT | kubectl.csv              | 83% 🏆          | 5                   | 2023-09-19 |
+| Kubectl-gpt | kubectl.csv              | 50%             | 1                   | 2023-09-19 |
+| mico        | kubectl.csv              | 17%             | 1                   | 2023-09-19 |
+
+
 
 Metrics:
 
@@ -37,9 +42,9 @@ A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engine
 | [tfgpt](https://github.com/flavius-dinu/tfgpt) | Terraform | No |
 | [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure | No |
 | [kubiya](https://www.kubiya.ai/) | AWS, Kubernetes | No |
-| [micro](https://github.com/tahtaciburak/mico) | kubectl | No |
-| [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | kubectl | No |
-| [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | kubectl | No |
+| [mico](https://github.com/tahtaciburak/mico) | kubectl | Yes |
+| [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | kubectl | Yes |
+| [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | kubectl | Yes |
 
 ### Submit a DevOps AI Assistant for evaluation
 
@@ -60,6 +65,7 @@ List of datasets:
 | [aws_cloudwatch_metrics.csv](datasets/aws_cloudwatch_metrics.csv) | Were there any Lambda invocations that lasted over 30 seconds in the last day? |
 | [aws_services.csv](datasets/aws_services.csv) | Do our ec2 instances have are any unexpected reboots or terminations over the past 7 days? |
 | [aws_billing.csv](datasets/aws_billing.csv) | Which region has the highest AWS expenses for me over the past 3 months? |
+| [kubectl.csv](datasets/kubectl.csv) | How many pods are currently running in the default namespace? |
 
 ## Evaluation Process
 
