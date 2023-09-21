@@ -6,18 +6,34 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 
 ## 🏆 Current Leaderboard
 
-| Name      | Dataset File               | Accuracy        | Median Duration (s) | Created At |
-|-----------|----------------------------|-----------------|---------------------|------------|
-| OpsTower  | aws_cloudwatch_metrics.csv | 89% 🏆          | 42                  | 2023-09-17 |
-| ReleaseAi | aws_cloudwatch_metrics.csv | 56%             | 20                  | 2023-09-18 |
-| OpsTower  | aws_services.csv           | 92% 🏆          | 29                  | 2023-09-17 |
-| ReleaseAi | aws_services.csv           | 72%             | 11                  | 2023-09-17 |
-| OpsTower  | aws_billing.csv            | 91% 🏆          | 53                  | 2023-09-18 |
-| ReleaseAi | aws_billing.csv            | 73%             | 23                  | 2023-09-18 |
-| Kubectl-GPT | kubectl.csv              | 83% 🏆          | 5                   | 2023-09-19 |
-| Kubectl-gpt | kubectl.csv              | 50%             | 1                   | 2023-09-19 |
-| mico        | kubectl.csv              | 17%             | 1                   | 2023-09-19 |
+### [AWS Services](datasets/aws_services.csv)
 
+| Name      | Accuracy        | Median Duration (s) | Created At |
+|-----------|-----------------|---------------------|------------|
+| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)  | [92%](results/OpsTower-2023-09-17-aws_services.csv) 🏆          | 29                  | 2023-09-17 |
+| [ReleaseAI](https://release.ai/) | [72%](results/ReleaseAi-2023-09-17-aws_services.csv)             | 11                  | 2023-09-17 |
+
+### [AWS CloudWatch Metrics](datasets/aws_cloudwatch_metrics.csv)
+
+| Name      | Accuracy        | Median Duration (s) | Created At |
+|-----------|-----------------|---------------------|------------|
+| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)  | [89%](results/OpsTower-2023-09-17-aws_cloudwatch_metrics.csv) 🏆          | 42                  | 2023-09-17 |
+| [ReleaseAI](https://release.ai/) | [56%](results/ReleaseAi-2023-09-18-aws_cloudwatch_metrics.csv)             | 20                  | 2023-09-18 |
+
+### [AWS Billing](datasets/aws_billing.csv)
+
+| Name      | Accuracy        | Median Duration (s) | Created At |
+|-----------|-----------------|---------------------|------------|
+| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)  | [91%](results/OpsTower-2023-09-18-aws_billing.csv) 🏆          | 53                  | 2023-09-18 |
+| [ReleaseAI](https://release.ai/) | [73%](results/ReleaseAi-2023-09-18-aws_billing.csv)             | 23                  | 2023-09-18 |
+
+## [Kubectl](datasets/kubectl.csv)
+
+| Name      | Accuracy        | Median Duration (s) | Created At |
+|-----------|-----------------|---------------------|------------|
+| [abhishek-ch/kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | [83%](results/AbhishekchKubectlGpt-2023-09-19-kubectl.csv) 🏆          | 5                   | 2023-09-19 |
+| [devinjeon/kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | [50%](results/DevinjeonKubectlGpt-2023-09-19-kubectl.csv)             | 1                   | 2023-09-19 |
+| mico        | [17%](results/Mico-2023-09-19-kubectl.csv)             | 1                   | 2023-09-19 |
 
 
 Metrics:
@@ -31,6 +47,8 @@ A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engine
 
 ## List of DevOps AI Assistants
 
+Only includes assistants that can be invoked from the command line or via a REST API, are functional, and are available for immediate use (not in private beta).
+
 | Name | Focus | Evaluated? |
 | -------- | -------- | -------- |
 | [OpsTower.ai](https://github.com/opstower-ai/llm-opstower) | AWS | Yes |
@@ -41,14 +59,17 @@ A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engine
 | [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform  | No |
 | [tfgpt](https://github.com/flavius-dinu/tfgpt) | Terraform | No |
 | [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure | No |
-| [kubiya](https://www.kubiya.ai/) | AWS, Kubernetes | No |
 | [mico](https://github.com/tahtaciburak/mico) | kubectl | Yes |
 | [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | kubectl | Yes |
 | [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | kubectl | Yes |
+| [k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | Kubernetes | No |
 
 ### Submit a DevOps AI Assistant for evaluation
 
-Open a PR and submit a DevOps AI Assistant for automated evaluation. To be evaluated, I need to be able to interact with it on the command line or via a REST API.
+Open a PR and submit a DevOps AI Assistant for automated evaluation. To be evaluated, the agent must meet the following criteria:
+
+1. Can be invoked from the command line or via a REST API.
+2. Not in private BETA.
 
 ## Question Datasets
 
