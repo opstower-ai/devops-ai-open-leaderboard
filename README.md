@@ -49,20 +49,20 @@ A DevOps AI Assistant is an LLM-backed autonomous agent that helps DevOps engine
 
 Only includes assistants that can be invoked from the command line or via a REST API, are functional, and are available for immediate use (not in private beta).
 
-| Name | Focus | Evaluated? |
-| -------- | -------- | -------- |
-| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower) | AWS | Yes |
-| [ReleaseAI](https://release.ai/) | AWS, Kubectl | Yes |
-| [aiac](https://github.com/gofireflyio/aiac) | Terraform, kubectl, AWS | No |
-| [KubeCtl-ai](https://github.com/sozercan/kubectl-ai) | Kubernetes manifests | No |
-| [aiws](https://github.com/huseyinbabal/aiws) | AWS | No |
-| [Terraform AI](https://github.com/jigsaw373/terraform-ai) | Terraform  | No |
-| [tfgpt](https://github.com/flavius-dinu/tfgpt) | Terraform | No |
-| [cloud copilot](https://github.com/aavetis/cloud-copilot) | Azure | No |
-| [mico](https://github.com/tahtaciburak/mico) | kubectl | Yes |
-| [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | kubectl | Yes |
-| [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | kubectl | Yes |
-| [k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | Kubernetes | No |
+| Name                                                         | Focus                     | Evaluated?                     |
+| ------------------------------------------------------------ | ------------------------- | ------------------------------ |
+| [aiac](https://github.com/gofireflyio/aiac)                  | Terraform, kubectl, AWS   | No - code generation only      |
+| [aiws](https://github.com/huseyinbabal/aiws)                 | AWS                       | No - does not decipher command output |
+| [cloud copilot](https://github.com/aavetis/cloud-copilot)    | Azure                     | No - does not decipher command output |
+| [k8sgpt](https://github.com/k8sgpt-ai/k8sgpt)                | Kubernetes                | Planned                       |
+| [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT)    | kubectl                   | ✅                             |
+| [kubectl-gpt](https://github.com/devinjeon/kubectl-gpt)      | kubectl                   | ✅                             |
+| [KubeCtl-ai](https://github.com/sozercan/kubectl-ai)         | Kubernetes manifests      | No - code generation only      |
+| [mico](https://github.com/tahtaciburak/mico)                 | kubectl                   | ✅                             |
+| [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)   | AWS                       | ✅                             |
+| [ReleaseAI](https://release.ai/)                             | AWS, Kubectl              | ✅                             |
+| [Terraform AI](https://github.com/jigsaw373/terraform-ai)    | Terraform                 | No - code generation only      |
+| [tfgpt](https://github.com/flavius-dinu/tfgpt)               | Terraform                 | No - code generation only      |
 
 ### Submit a DevOps AI Assistant for evaluation
 
