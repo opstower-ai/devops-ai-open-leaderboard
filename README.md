@@ -6,28 +6,28 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 
 ## 🏆 Current Leaderboard
 
-### [AWS Services](datasets/aws_services.csv)
+### AWS Services ([dataset](datasets/aws_services.csv))
 
 | Name      | Accuracy        | Median Duration (s) | Created At |
 |-----------|-----------------|---------------------|------------|
 | [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)  | [92%](results/OpsTower-2023-09-17-aws_services.csv) 🏆          | 29                  | 2023-09-17 |
 | [ReleaseAI](https://release.ai/) | [72%](results/ReleaseAi-2023-09-17-aws_services.csv)             | 11                  | 2023-09-17 |
 
-### [AWS CloudWatch Metrics](datasets/aws_cloudwatch_metrics.csv)
+### AWS CloudWatch Metrics ([dataset](datasets/aws_cloudwatch_metrics.csv))
 
 | Name      | Accuracy        | Median Duration (s) | Created At |
 |-----------|-----------------|---------------------|------------|
 | [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)  | [89%](results/OpsTower-2023-09-17-aws_cloudwatch_metrics.csv) 🏆          | 42                  | 2023-09-17 |
 | [ReleaseAI](https://release.ai/) | [56%](results/ReleaseAi-2023-09-18-aws_cloudwatch_metrics.csv)             | 20                  | 2023-09-18 |
 
-### [AWS Billing](datasets/aws_billing.csv)
+### AWS Billing ([dataset](datasets/aws_billing.csv))
 
 | Name      | Accuracy        | Median Duration (s) | Created At |
 |-----------|-----------------|---------------------|------------|
 | [OpsTower.ai](https://github.com/opstower-ai/llm-opstower)  | [91%](results/OpsTower-2023-09-18-aws_billing.csv) 🏆          | 53                  | 2023-09-18 |
 | [ReleaseAI](https://release.ai/) | [73%](results/ReleaseAi-2023-09-18-aws_billing.csv)             | 23                  | 2023-09-18 |
 
-## [Kubectl](datasets/kubectl.csv)
+### kubectl ([dataset](datasets/kubectl.csv))
 
 | Name      | Accuracy        | Median Duration (s) | Created At |
 |-----------|-----------------|---------------------|------------|
