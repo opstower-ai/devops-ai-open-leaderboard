@@ -33,7 +33,7 @@ _📅 [Book a time on my calendar](https://calendly.com/derek-haynes) or email d
 |-----------|-----------------|---------------------|------------|
 | [abhishek-ch/kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT) | [83%](results/AbhishekchKubectlGpt-2023-09-19-kubectl.csv) 🏆          | 5                   | 2023-09-19 |
 | [devinjeon/kubectl-gpt](https://github.com/devinjeon/kubectl-gpt) | [50%](results/DevinjeonKubectlGpt-2023-09-19-kubectl.csv)             | 1                   | 2023-09-19 |
-| mico        | [17%](results/Mico-2023-09-19-kubectl.csv)             | 1                   | 2023-09-19 |
+| [mico](https://github.com/tahtaciburak/mico)        | [17%](results/Mico-2023-09-19-kubectl.csv)             | 1                   | 2023-09-19 |
 
 
 Metrics:
