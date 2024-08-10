@@ -63,6 +63,8 @@ Only includes assistants that can be invoked from the command line or via a REST
 | [ReleaseAI](https://release.ai/)                             | AWS, Kubectl              | ✅                             |
 | [Terraform AI](https://github.com/jigsaw373/terraform-ai)    | Terraform                 | No - code generation only      |
 | [tfgpt](https://github.com/flavius-dinu/tfgpt)               | Terraform                 | No - code generation only      |
+| [Argon](https://www.argonlabs.ai/)                           | Kubernetes                | No                             |
+| [Aptible AI](https://www.aptible.ai/)                        | ?                         | No                             |
 
 ### Submit a DevOps AI Assistant for evaluation
 
