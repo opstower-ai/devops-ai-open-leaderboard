@@ -53,6 +53,8 @@ Only includes assistants that can be invoked from the command line or via a REST
 | ------------------------------------------------------------ | ------------------------- | ------------------------------ |
 | [aiac](https://github.com/gofireflyio/aiac)                  | Terraform, kubectl, AWS   | No - code generation only      |
 | [aiws](https://github.com/huseyinbabal/aiws)                 | AWS                       | No - does not decipher command output |
+| [Aptible AI](https://www.aptible.ai/)                        | ?                         | No                             |
+| [Argon](https://www.argonlabs.ai/)                           | Kubernetes                | No                             |
 | [cloud copilot](https://github.com/aavetis/cloud-copilot)    | Azure                     | No - does not decipher command output |
 | [k8sgpt](https://github.com/k8sgpt-ai/k8sgpt)                | Kubernetes                | Planned                       |
 | [kubectl-GPT](https://github.com/abhishek-ch/Kubectl-GPT)    | kubectl                   | ✅                             |
@@ -63,8 +65,6 @@ Only includes assistants that can be invoked from the command line or via a REST
 | [ReleaseAI](https://release.ai/)                             | AWS, Kubectl              | ✅                             |
 | [Terraform AI](https://github.com/jigsaw373/terraform-ai)    | Terraform                 | No - code generation only      |
 | [tfgpt](https://github.com/flavius-dinu/tfgpt)               | Terraform                 | No - code generation only      |
-| [Argon](https://www.argonlabs.ai/)                           | Kubernetes                | No                             |
-| [Aptible AI](https://www.aptible.ai/)                        | ?                         | No                             |
 
 ### Submit a DevOps AI Assistant for evaluation
 
